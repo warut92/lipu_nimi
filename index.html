@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="icon" type="image/x-icon" href="./img/icon.png"> -->
+    <!-- <link rel="apple-touch-icon" href="./img/icon.png"> -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="stylesheet" href="style.css">
+<title>😊Tokipona Dictionary</title>
+</head>
+<body>
+<div class="sticky">
+  <h2>😊lipu nimi</h2>
+  <p>lipu nimi<a href="">😊</a></p>
+<input type="text" id="searchInput" placeholder="word..." oninput="liveSearch(this.value)" onfocus="liveSearch(this.value)">
+<div id="liveSearch"></div>
+<div id="countWordResult"></div>
+</div> 
+
+<div id="searchResult"></div>
+
+<div id="e"></div>
+
+<script src="tokipna.js" charset="utf-8"></script>
+<script src="app.js" charset="utf-8"></script>
+</body>
+</html>
