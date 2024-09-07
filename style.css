@@ -12,6 +12,7 @@ p {
 }
 
 input {
+    text-transform: lowercase;
     background-color: black;
     color: aliceblue;  
     font-size: 18px;

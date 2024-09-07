@@ -5,7 +5,7 @@ function liveSearch(nimi) {
       searchResult.innerHTML = ""
     }
 
-    nimi = nimi.replace(/ /g, "|")
+    nimi = nimi.replace(/ /g, "|^")
 
     const TOKIPONA_WORDS = tokiponaWords.split("\n")
 
