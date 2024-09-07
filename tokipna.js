@@ -129,7 +129,7 @@ n	(indicates thinking, pondering, recognition, agreement, or humming)	(indikas p
 namako	{see sin} | ALT embellishment, spice; extra, additional	salo, spico, vinagro; akcesoraĵo; kromaĵo; sali, spici; ornami, plibeligi; stimuli, eksciti	{ดู sin} | ALT การตกแต่ง, เครื่องเทศ; พิเศษ, เพิ่มเติม
 tonsi	non-binary, gender-non-conforming | ALT trans, non-cisgender	neduuma, genre nekonforma | ALT transseksa, transgenra, necisseksa	ไม่ใช่ไบนารี่, เพศไม่สอดคล้อง | ALT ทรานส์ ไม่ใช่ซิสเจนเดอร์
 epiku	epic, cool, awesome, amazing	mojosa, mirinda	ยิ่งใหญ่, เจ๋ง, ยอดเยี่ยม, น่าทึ่ง
-kipisi	split, cut, slice, sever; sharp	apartigi, dividi, fendi, tranĉi	แยก, ตัด, ฝาน, ตัด; คม
+kipisi	split, cut, slice, sever; sharp	apartigi, dividi, fendi, tranĉi	แยก, ตัด, ฝาน, แยกออกแป็นส่วน ๆ; คม
 lanpan	take, seize, catch, receive, get	preni, kapti, ricevi	เอาไป, ยึด, จับ, รับ, ได้
 meso	midpoint, medium, mediocre; neither one not the other, neither fully is nor isn't	mezo, mezkvalita, mezbona, nek unu nek alia	จุดกึ่งกลาง, ปานกลาง, ปานกลาง; ไม่ใช่อย่างใดอย่างหนึ่ง ไม่ใช่อย่างครบถ้วนหรือไม่ใช่
 misikeke	medicine, medical	medikamento, medicina	ยา, การแพทย์
