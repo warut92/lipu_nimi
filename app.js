@@ -7,7 +7,7 @@ function liveSearch(nimi) {
 
     nimi = nimi.replace(/ /g, "|^")
 
-    const TOKIPONA_WORDS = tokiponaWords.split("\n")
+    const TOKIPONA_WORDS = tokiponaDict.split("\n")
 
     if (nimi.length > 1) {
       let PATTERN = new RegExp(`(${(nimi)})`, "gm");
@@ -20,6 +20,7 @@ function liveSearch(nimi) {
       let results = RESULTS.toString()
       .replace(/\t/g, "<br>")
       .replace(/\=/g, "<hr>")
+      // .replace(/💡:\[[a-z]\]/gm, "<tok>$1</tok>")
       // .replace(/([ก-๙]*) : ([A-Za-z \(\)\'\"]*)/g, "<span onclick=\"letSearch(this)\">$1</span> : <span onclick=\"letSearchEo(this)\">$2</span>")
       // .replace(/([ก-๙]*)$/g, "<span onclick=\"letSearch(this)\">$1</span>")
       // console.log(results);
@@ -29,3 +30,6 @@ function liveSearch(nimi) {
       document.getElementById("liveSearch").innerHTML = ""
     }
   } 
+
+// nur tokipona vorto
+let onlyTokiponaWords = tokiponaDict

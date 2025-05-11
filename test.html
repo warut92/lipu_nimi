@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Dictionary</title>
+  <style>
+    body { font-family: sans-serif; padding: 20px; }
+    input { padding: 8px; width: 200px; }
+    #result { margin-top: 20px; }
+    .not-found { color: red; }
+  </style>
+</head>
+<body>
+  <h1>Dictionary Lookup</h1>
+  <input type="text" id="searchBox" placeholder="Enter word..." />
+  <div id="result"></div>
+
+  <script>
+    let dictionary = [];
+
+    // Load JSON data
+    fetch('tokipona_th.json')
+      .then(res => res.json())
+      .then(data => dictionary = data);
+
+    // Search function
+    document.getElementById('searchBox').addEventListener('input', function () {
+      const query = this.value.trim().toLowerCase();
+      const resultDiv = document.getElementById('result');
+      resultDiv.innerHTML = '';
+
+      if (!query) return;
+
+      const found = dictionary.find(entry => entry.word.toLowerCase() === query);
+      if (found) {
+        resultDiv.innerHTML = `
+          <p><strong>Word:</strong> ${found.word}</p>
+          <p><strong>English:</strong> ${found.english}</p>
+          <p><strong>Esperanto:</strong> ${found.esperanto}</p>
+          <p><strong>Thai:</strong> ${found.thai}</p>
+        `;
+      } else {
+        resultDiv.innerHTML = `<p class="not-found">Word not found.</p>`;
+      }
+    });
+  </script>
+</body>
+</html>
